@@ -1,4 +1,4 @@
-var V='sd-v8',FH=/^https:\/\/fonts\.(googleapis|gstatic)\.com\//;
+var V='sd-v9',FH=/^https:\/\/fonts\.(googleapis|gstatic)\.com\//;
 var F=['./','index.html','manifest.webmanifest','trex-192.png','trex-512.png','trex-180.png','trex-maskable-192.png','trex-maskable-512.png'];
 var FONT='https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Lora:ital,wght@0,700;1,500;1,700&display=swap';
 self.addEventListener('install',function(e){e.waitUntil(caches.open(V).then(function(c){
